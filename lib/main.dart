@@ -20,13 +20,24 @@ class HomePage extends StatelessWidget {
 	              height: 400,
 	              decoration: BoxDecoration(
 	                image: DecorationImage(
-	                  image: AssetImage('assets/images/background.png'),
+	                  image: AssetImage('assets/images/back.jpg'),
 	                  fit: BoxFit.fill
 	                )
 	              ),
 	              child: Stack(
 	                children: <Widget>[
-	                  
+	                  Positioned(
+	                    left: 30,
+	                    width: 80,
+	                    height: 200,
+	                    child: Container(
+	                      decoration: BoxDecoration(
+	                        image: DecorationImage(
+	                          image: AssetImage('assets/images/light-1.png')
+	                        )
+	                      ),
+	                    ),
+	                  ),
 	                  Positioned(
 	                    left: 140,
 	                    width: 80,
